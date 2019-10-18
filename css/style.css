@@ -10,12 +10,15 @@ body {
 }
 
 div {
-  position: inline-block;
-  width: 96%;
+  display: inline-block;
 }
 
 .arrow {
-  position: inline-block;
+  display: inline-block;
+}
+
+.content {
+  width: 80%;
 }
 
 .location h1 {
