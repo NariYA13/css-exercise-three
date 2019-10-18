@@ -10,15 +10,25 @@ body {
 }
 
 div {
-  display: inline-block;
+  display: block;
 }
 
 .arrow {
   display: inline-block;
+  float: right;
+  padding-top: 5%;
+  padding-right: 3%;
 }
 
 .content {
+  display: inline-block;
   width: 80%;
+}
+
+.location {
+  border-bottom: 1px solid #939292;
+  padding-bottom: 3%;
+  padding-left: 5%;
 }
 
 .location h1 {
@@ -43,10 +53,12 @@ nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
+  overflow: hidden;
+  top: 0;
   width: 420px;
 }
 
 .restaurant-list {
   padding-top: 50px;
-  padding-left: 4%;
+  padding-bottom: 4%;
 }
