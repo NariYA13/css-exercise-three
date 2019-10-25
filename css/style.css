@@ -9,14 +9,18 @@ body {
   line-height: 1.5;
 }
 
-div:link { color: #333 }
-div:hover { background-color: #A4A4A4}
+.location:link {
+  color: #333;
+}
+.location:hover {
+  background-color: #A4A4A4;
+  cursor: pointer;
+}
 
-.arrow {
-  display: inline-block;
+.arrow-right {
   float: right;
-  padding-top: 3%;
-  padding-right: 3%;
+  padding-top: 4%;
+  padding-right: 4%;
 }
 
 .content {
